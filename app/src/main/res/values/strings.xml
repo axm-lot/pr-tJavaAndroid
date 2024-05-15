@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EmptyA</string>
+    <string name="add_pret">Ajouter un prêt</string>
+    <string name="fabAddPret">Bouton ajouter prêt</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Id"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editTextBank"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Bank" />
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="Amount" />
+
+    <EditText
+        android:id="@+id/editTextTaux"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:inputType="numberSigned"
+        android:hint="Taux" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:inputType="date"
+        android:hint="Date" />
+    <!--<Button
+        android:id="@+id/buttonPickDate"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:text="Pick Date" />-->
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Annuler" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Enregistrer" />
+
+</LinearLayout>

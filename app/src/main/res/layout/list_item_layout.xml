@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <ImageButton
+            android:id="@+id/btnModifier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="8dp"
+            android:contentDescription="Modifier"
+            android:onClick="modifierPret"/>
+
+        <ImageButton
+            android:id="@+id/btnSupprimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="8dp"
+            android:contentDescription="Supprimer"
+            android:onClick="supprimerPret"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="-25dp"/>
+
+    <TextView
+        android:id="@+id/textBanque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/textMontant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/textTaux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"/>
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0px"
+        android:layout_marginTop="0px"
+        android:visibility="gone"/>
+</LinearLayout>
